@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <Link class="navbar-brand" to="#">
+        <Link class="navbar-brand" to="/">
           Blood Bank App
         </Link>
         <button
