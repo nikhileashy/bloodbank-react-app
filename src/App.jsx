@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import AddDonor from "./components/AddDonor";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ViewDonors from "./components/ViewDonors";
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
         <Routes>
           {/* <Route index element={<AddEmployee />} /> */}
           <Route path="add" element={<AddDonor />} />
-          {/* <Route path="search" element={<SearchEmployee />} />
-          <Route path="delete" element={<DeleteEmployee />} /> */}
+          <Route path="view" element={<ViewDonors />} />
+          {/* <Route path="delete" element={<DeleteEmployee />} /> */}
         </Routes>
       </BrowserRouter>
     </>

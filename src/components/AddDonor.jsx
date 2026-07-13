@@ -1,5 +1,5 @@
 import React from "react";
-// import NavBar from "./NavBar";
+import NavBar from "./NavBar";
 import axios from "axios";
 
 const AddDonor = () => {
@@ -35,7 +35,7 @@ const AddDonor = () => {
 
   return (
     <div>
-      {/* <NavBar /> */}
+      <NavBar />
       <div className="container" style={{ padding: 10, margin: 50 }}>
         <h1 style={{ marginBottom: 50 }}>Add Donor</h1>
         <form onSubmit={handleSubmit} className="row g-3">
